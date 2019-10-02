@@ -5,7 +5,7 @@ import loggedReducer from './loggedIn';
 
 const allReducers = combineReducers({
     counter: counterReducer,
-    loggedIn: loggedReducer
+    isLogged: loggedReducer
 });
 
 export default allReducers;
